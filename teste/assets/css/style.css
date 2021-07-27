@@ -1,0 +1,250 @@
+
+img { max-width: 100%;
+	
+ }
+
+ 
+
+
+/***** General style, all sections *****/
+
+.section-container { margin: 0 auto; padding-bottom: 80px; }
+
+.section-container-gray-bg { background: #f8f8f8; }
+
+.section-container-image-bg, 
+.section-container-image-bg h2, 
+.section-container-image-bg h3 { color: rgb(0, 0, 0); }
+
+.section-container-image-bg .divider-1 span { border-color: #fff; }
+
+.section-description { margin-top: 60px; padding-bottom: 10px; }
+
+.section-description p { margin-top: 20px; padding: 0 120px; }
+.section-container-image-bg .section-description p { opacity: 0.8; }
+
+.section-bottom-button { padding-top: 60px; }
+
+
+/** Divs Itens **/
+.col-6 {
+	height: 500px;
+	flex: 0 0 50%;
+	
+	}
+
+	.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#col-6{
+	background: linear-gradient(180deg, #484848 0%, #393939 100%);
+
+}
+
+.container {
+	max-width:100%;
+} 
+
+#carousel-example{
+	margin-top: 15px;
+	box-shadow: 0px -4px =4px rgba(0, 0, 0, 0.25);
+	z-index: 10;
+}
+
+.img-fluid {
+	
+	width: 50%;
+	margin-left: 50%;
+	margin-right: 50%;
+}
+
+.desc-iten {
+	margin-top: 50px;
+	margin-bottom: 1rem;
+	margin-left: 5%;
+	margin-right: 15%;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 50px;
+	
+	color: #FFFFFF;
+}
+
+.list-itens {
+	margin-top: 50px;
+	margin: auto;
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+	justify-content: space-between;
+	padding-right: 50px;
+  color: #fff;
+  font-family: arial;
+  font-size: 15px;
+}
+
+.container ul {
+  list-style-type: none;
+}
+
+.container ul li {
+  margin-top: 7px;
+} 
+
+h5{
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 14px;
+
+/* identical to box height */
+
+
+color: #FF9900;
+}
+
+.title{
+margin-top: 50px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 21px;
+text-align: left;
+color: #FF9900;
+margin-left: 15%;
+
+}
+
+.icon-desc {
+	margin-bottom: 10px;
+	height: 40px ;
+	
+}
+
+#div-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.img-item{
+	margin: auto;
+  display: flex;
+}
+
+.carousel-control-prev-icon {
+	background-image: url(https://casadaloucura.com.br/wp-content/uploads/2021/07/Vector-6.png);
+	height: 80px;
+	width: 41px;
+}
+
+.carousel-control-next-icon {
+	background-image: url(https://casadaloucura.com.br/wp-content/uploads/2021/07/Vector-7.png);
+	height: 80px;
+	width: 41px;
+
+}
+
+.w-100 {
+	width: 80%!important;
+}
+
+
+	#div-box{
+		text-align: center;
+	}
+
+	.item1{
+		opacity: 0.5;
+	}
+	
+	.item1:hover {
+		opacity: 1.0;
+		
+	}
+
+	#img{
+		opacity: 0.8;
+		cursor: pointer;
+	}
+
+	#img:hover{
+		opacity: 1;
+	}
+
+
+	.icon-desc{
+		height: 45px;
+	}
+	
+	@media only screen and (max-width: 768px) {
+
+
+		.col-6{
+			width: 768px;
+			display: block;
+			flex: 0 0 100%;
+			max-width: 100%;
+			
+		}
+		#col-6{
+			height: 600px;
+		}
+
+		.list-itens {
+			margin-top: 50px;
+			margin-left: 20%;
+			max-width: 100%;
+			flex-flow: row wrap;
+			justify-content: left;
+			padding-right: 50px;
+			color: #fff;
+			font-family: arial;
+			font-size: 15px;
+	}
+
+	.desc-iten {
+    margin-top: 50px;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.title{
+	margin-top: 50px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 21px;
+	text-align: center;
+	color: #FF9900;
+	margin-left: auto;
+
+	
+	
+	}
+	}
+
+
+
+
